@@ -1,0 +1,557 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: rgb(70, 156, 156);
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+.header-right-wrap {
+  margin-left: 300px;
+  display: flex;
+}
+.header-right {
+  width: 50%;
+  margin-top: 10px;
+}
+.header-right-2 {
+  margin-left: 50px;
+}
+.header-left-wrap {
+  display: flex;
+  margin-left: 50px;
+}
+.header-left {
+  width: 50%;
+  margin-top: 10px;
+}
+.header-left-2 {
+  margin-left: 50px;
+}
+.nav {
+  background-color: rgb(200, 208, 205);
+  display: flex;
+  height: 75px;
+}
+.nav-left {
+  display: flex;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.nav-right {
+  width: 70%;
+}
+.nav-right-wraped {
+  margin-left: 200px;
+}
+
+.nav-right-a {
+  margin-left: 10px;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.nav-right-butt {
+  height: 75px;
+  width: 221px;
+  background-color: rgb(23, 23, 242);
+  position: relative;
+  margin-left: 108px;
+}
+
+.good-health {
+  background-color: rgb(29, 67, 239);
+
+  display: flex;
+}
+.good-health-left {
+  flex-basis: 50%;
+}
+.good-health-left-wraped {
+  margin-top: 130px;
+  margin-left: 50px;
+}
+.good-health-left-h1 {
+  font-size: 4rem;
+  color: white;
+  margin-left: 30px;
+}
+.good-health-left-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  color: whitesmoke;
+}
+.good-health-left-bottom-1 {
+  border-left: 2px solid white;
+  padding-left: 20px;
+}
+.good-health-right {
+  flex-basis: 50%;
+}
+.good-health-right-img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-us-left {
+  margin-left: 200px;
+  flex-basis: 50%;
+}
+
+.about-us {
+  display: flex;
+  margin-top: 100px;
+}
+.about-us-left-1 {
+  width: 100%;
+}
+.about-us-left-2 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin-top: -25%;
+  margin-left: -100px;
+  border-top: 10px solid white;
+  border-right: 10px solid white;
+  border-radius: 5px;
+}
+.about-us-right {
+  flex-basis: 50%;
+}
+
+.about-us-right {
+  margin-left: 80px;
+}
+.about-us-right-butt {
+  color: rgba(211, 201, 201, 0.85);
+  padding: 5px 20px 5px 20px;
+  border: 1px solid rgb(182, 211, 140);
+  border-radius: 40px;
+}
+
+.about-us-right-h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+.about-us-right-p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.about-us-right-list {
+  margin-top: 20px;
+}
+
+.about-us-right-butt-2 {
+  margin-top: 20px;
+  padding: 20px 40px 20px 40px;
+  border-radius: 40px;
+  border: 1px solid white;
+  background-color: rgba(18, 18, 244, 0.818);
+  color: white;
+}
+
+/* sevices design */
+.services-head {
+  margin-left: 500px;
+}
+.services-head-p {
+  padding: 7px 13px 7px 13px;
+  border: 1px solid rgba(130, 180, 200, 0.878);
+  border-radius: 40px;
+  width: 60px;
+  margin-left: 80px;
+}
+
+.services-head-h1 {
+  font-size: 2rem;
+}
+/* .services-card {
+  
+} */
+
+.services-card-h1 {
+  font-size: 1.5rem;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.services-card-i {
+  color: blue;
+  width: 80px;
+  height: 60px;
+  font-size: 25px;
+  /* border: 50px 50px 50px 50px; */
+  border-radius: 90%;
+  background-color: whitesmoke;
+  margin-left: 50px;
+  margin-top: 40px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+}
+.services-card-p {
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 80%;
+}
+.services-card-a {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.services-card-first-line {
+  display: flex;
+}
+.services-card-first-line-1 {
+  background-color: rgb(89, 150, 169);
+  margin-left: 30px;
+  width: 355px;
+  height: 365px;
+  border-radius: 5px;
+}
+
+.services-card-first-line-2 {
+  background-color: rgb(89, 150, 169);
+  width: 355px;
+  height: 365px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+.services-card-first-line-3 {
+  background-color: rgb(89, 150, 169);
+  width: 355px;
+  height: 365px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.services-card-secand-line {
+  display: flex;
+}
+
+.services-card-secand-line-1 {
+  background-color: rgb(89, 150, 169);
+  width: 355px;
+  height: 365px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.services-card-secand-line-2 {
+  background-color: rgb(89, 150, 169);
+  width: 355px;
+  height: 365px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.services-card-secand-line-3 {
+  background-color: rgb(89, 150, 169);
+  width: 355px;
+  height: 365px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+/* choose-us- */
+.choose-us {
+  display: flex;
+  margin-top: 60px;
+}
+
+.choose-us-left {
+  background-color: aqua;
+  width: 50%;
+}
+.choose-us-right {
+  width: 50%;
+}
+.choose-us-right-img {
+  width: 100%;
+  height: 555px;
+}
+
+.choose-us-left-wraped {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.choose-us-left-1-p1 {
+  border: 1px solid whitesmoke;
+  border-radius: 40px;
+  padding: 5px 10px 5px 10px;
+  width: 70px;
+  color: white;
+
+  text-align: center;
+}
+.choose-us-left-1-h1 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.choose-us-left-1-p2 {
+  width: 90%;
+  margin-top: 20px;
+}
+.choose-us-left-2-row-1 {
+  display: flex;
+}
+
+.choose-us-i {
+  color: blue;
+  width: 60px;
+  height: 30px;
+  font-size: 25px;
+  /* border: 50px 50px 50px 50px; */
+  border-radius: 90%;
+  background-color: whitesmoke;
+
+  text-align: center;
+  padding-top: 30px;
+  justify-content: center;
+}
+.choose-us-left-2-row-1-doctors {
+  display: flex;
+}
+.choose-us-p {
+  padding-left: 25px;
+  padding-top: px;
+}
+.choose-us-h {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.choose-us-left-2-row-1 {
+  margin-top: 30px;
+}
+
+.choose-us-left-2-row-1-services {
+  display: flex;
+  margin-left: 55px;
+}
+.choose-us-left-2-row-2 {
+  display: flex;
+  margin-top: 50px;
+}
+.choose-us-left-2-row-2-consultation {
+  display: flex;
+}
+.choose-us-left-2-row-2-support {
+  display: flex;
+  margin-left: 80px;
+}
+
+/* Doctors-card-1 design */
+
+.Doctors-head {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.Doctors-head-p {
+  border: 2px solid rgb(245, 245, 245);
+  border-radius: 40px;
+  width: 114px;
+  height: 33px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin-left: 550px;
+}
+
+.Doctors-head-h {
+  font-size: 2rem;
+}
+
+.Doctors-card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.Doctors-card-1 {
+  background-color: rgba(115, 200, 219, 0.788);
+  width: 265px;
+  height: 413px;
+}
+
+.Doctors-card-img {
+  width: 100%;
+  height: 100%;
+}
+.Doctors-card-1-secound-i {
+  text-align: center;
+  margin-top: 10px;
+}
+.Doctors-card-h {
+  text-align: center;
+  margin-top: 15px;
+}
+.Doctors-card-h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* appointment */
+
+.Appointment {
+  display: flex;
+  margin-top: 90px;
+}
+
+.Appointment-left {
+  width: 50%;
+  margin-left: 50px;
+}
+
+.Appointment-left-1-p1 {
+  width: 112px;
+  height: 33px;
+  border: 2px solid greenyellow;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Appointment-left-1-h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.Appointment-left-1-p2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  width: 90%;
+}
+.Appointment-left-p {
+  margin-left: 30px;
+}
+.Appointment-left-p2 {
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 75px;
+  width: 90%;
+}
+.Appointment-left-i {
+  color: blue;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  /* border: 50px 50px 50px 50px; */
+  border-radius: 100%;
+  background-color: whitesmoke;
+  padding: 10px;
+
+  text-align: center;
+}
+.Appointment-left-2 {
+  background-color: rgba(213, 173, 148, 0.772);
+  display: flex;
+  width: 516px;
+  height: 112px;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+
+.Appointment-left-3 {
+  background-color: rgba(213, 173, 148, 0.772);
+  display: flex;
+  width: 516px;
+  height: 112px;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.Appointment-right {
+  background-color: cornflowerblue;
+  width: 534px;
+  height: 593px;
+}
+.Appointment-right-form {
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.Appointment-right-form-f {
+  width: 218px;
+  height: 55px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.Appointment-right-form-text {
+  width: 420px;
+  margin-top: 20px;
+}
+.Book-Appointment {
+  width: 454px;
+  height: 57px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+.Appointment-right-form-f-l {
+  display: flex;
+  margin-left: 250px;
+  margin-top: -55px;
+}
+
+/* container */
+
+.container {
+  display: flex;
+  margin-left: 30px;
+  background-color: rgba(9, 9, 44, 0.778);
+}
+
+.container-left {
+  margin-left: 50px;
+}
+.container-left-1 {
+  margin-top: 20px;
+}
+.container-left-4 {
+  margin-top: 20px;
+}
+.container-left-4-i {
+  border: 2px solid white;
+  border-radius: 90%;
+  padding: 5px;
+  color: white;
+}
+.container-services {
+  margin-left: 30px;
+  color: white;
+}
+.container-services-1 {
+  margin-top: 20px;
+  list-style: lower-roman;
+}
+
+.container-Quick {
+  margin-left: 20px;
+}
+.Quick-link {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.Quick-link-a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
